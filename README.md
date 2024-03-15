@@ -3,6 +3,15 @@
 
 <img src="img/Pymble2023.png" alt="Pymble2023" style="height: 400px; width: 800px;">
 
+
+
+### Weather API
+https://www.weatherapi.com/docs/
+
+```bash
+curl "http://api.weatherapi.com/v1/forecast.json?key=${API_KEY}&q=Pymble&dt=2024-03-14"  | jq
+```
+
 ### Data
 
 - [Visual Crossing](https://www.visualcrossing.com)
